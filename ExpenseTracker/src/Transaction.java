@@ -1,8 +1,8 @@
 public class Transaction {
-    private String type; // "income" or "expense"
+    private String type; 
     private String category;
     private double amount;
-    private String date; // Format: YYYY-MM
+    private String date; 
 
     public Transaction(String type, String category, double amount, String date) {
         this.type = type;
@@ -16,7 +16,7 @@ public class Transaction {
     public double getAmount() { return amount; }
     public String getDate() { return date; }
 
-    @Override
+    
     public String toString() {
         return type + "," + category + "," + amount + "," + date;
     }
