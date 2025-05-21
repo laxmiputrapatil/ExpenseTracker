@@ -42,7 +42,7 @@ public class ExpenseTracker {
     private static void ensureDataDirectoryExists() {
         File dataDir = new File("data");
         if (!dataDir.exists()) {
-            dataDir.mkdir(); // creates "data" folder if it doesn't exist
+            dataDir.mkdir();
         }
     }
 
